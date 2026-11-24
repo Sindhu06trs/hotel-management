@@ -1,0 +1,77 @@
+.hotel-form-container{
+    max-width : 750px;
+    margin : 40px auto;
+    padding : 35px;
+    background-color : white;
+    border-radius : 12px;
+    box-shadow : 0 4px 15px rgba(0 , 0 , 0, 0.08);
+}
+.hotel-form-container h1{
+    color: #1e293b;
+    font-size: 28px;
+    margin-bottom : 8px;
+}
+.hotel-form-container p{
+    color: #64748b;
+    margin-bottom: 30px;
+}
+.hotel-form{
+    display:flex;
+    flex-direction : column;
+    gap: 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction : column;
+    gap : 8px;
+}
+.form-group label{
+    font-weight : 600;
+    color : #334155;
+}
+.form-group input , .form-group textarea{
+    padding : 12px;
+    border : 1px solid #cbd5e1;
+    border-radius : 7px;
+    font-size : 15px;
+    font-family : inherit;
+}
+.form-group input : focus, .form-group textarea : focus {
+    outline : none;
+    border-color : #2563eb;
+}
+.form-group textarea{
+    resize : vertical;
+}
+.image-preview{
+    width : 200px;
+    height : 140px;
+    object-fit : cover;
+    border-radius : 8px;
+    margin-top : 10px;
+}
+.submit-button{
+    padding : 13px;
+    background-color : #2563eb;
+    color : white;
+    border : none;
+    border-radius : 7px;
+    font-size : 16px;
+    font-weight : 600;
+    cursor : pointer;
+    transition: background-color 0.3s;
+}
+.submit-button:hover{
+    background-color: #1d4ed8;
+}
+.hotel-card-actions .edit-button{
+    background-color : #16a34a;
+    color : white;
+    padding : 9px 14px;
+    border-radius: 6px;
+    text-decoration : none;
+    font-size : 14px;
+}
+.hotel-card-actions .edit-button:hover{
+    background-color : #15803d;
+}

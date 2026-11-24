@@ -11,7 +11,7 @@ const hotelSlice = createSlice({
         },
         editHotel: (state , action) => {
             const index = state.hotels.findIndex(
-                (hotel) => hotel.id == action.payload.id
+                (hotel) => hotel.id === action.payload.id
             );
             if(index !== -1){
                 state.hotels[index] = action.payload;
